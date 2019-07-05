@@ -47,7 +47,7 @@ class DMallCommand extends commando.Command {
             } else {
                 console.log(`Waited ${timeout}ms.\t|${i + 1}|\tDMing ${member.user.username}`);
             }
-            member.send(`${msg} \n\n [${timeout}]`);
+            member.send(`${msg}`);
         }
     }
 }
