@@ -27,7 +27,7 @@ bot.registry.registerGroup('dms', 'help');
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + "/commands");
 
-bot.login(config.token);
+bot.login(process.env.TOKEN);
 
 
 function clear() {
