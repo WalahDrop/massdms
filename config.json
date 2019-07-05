@@ -1,6 +1,6 @@
 {
-  "token": "NDc0NDAyMzM3ODY4MzQ5NDcw.DkQIdg.xlUNECJeMLhIrmHsbZvQYfsn4hM",
-  "prefix": "mass!",
-  "id": "180449801400352768",
+  "token": "process.env.TOKEN",
+  "prefix": "!",
+  "id": "596793822113955851",
   "wait": "10"
 }
